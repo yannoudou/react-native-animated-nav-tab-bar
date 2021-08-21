@@ -79,7 +79,7 @@ const TabButton = Styled.TouchableOpacity<ITabButton>`
 	justify-content: center;
 	align-items: center;
 	border-radius: 100;
-	padding-vertical: 10;
+	padding-vertical: 5.5;
 	flex-grow: ${(p) =>
     p.focused ? p.labelLength / calculateDotSize(p.dotSize) + 1 : 1};
 `;
